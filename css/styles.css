@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,600&display=swap');
+#title{
+    background-color: rgba(247, 15, 73, 0.884);
+}
+
+body{
+    font-family: "Montserrat";
+    text-align: center;
+   
+}
+h1{   
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+}
+p{
+    color: rgb(143, 144, 145);
+}
+.price-text{
+    font-family:"Montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#title{
+    color: aliceblue;
+}
+#features{
+    padding: 7% 15%; 
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    
+   }
+#testimonials{
+   
+ 
+    background-color: rgb(253, 107, 107); 
+    color:#ffff;
+}
+.container-fluid{
+    padding: 3% 15% 13%; 
+}
+  /* navbar */
+  .navbar{
+      padding:0 0 4.5rem;
+  }
+  .navbar-brand{
+      font-family:"Ubuntu";
+      font-size: 2.5rem;
+      font-weight: bold;
+  }
+  .nav-item {
+      padding: 0px 25px;
+  }
+  .nav-link{
+    font-family: 'Ubuntu', sans-serif;
+      font-size: 1.2rem;
+  }
+  /* Download-btn */
+  .Download-btn{
+      margin: 5% 4% 5% 0%;
+
+  }
+
+  /* title-image */
+
+.title-image{
+     width: 60%;
+     transform: rotate(25deg);
+     position: absolute;
+     right: 30%;
+}
+
+/* features */
+
+.feature-box{
+   
+    padding: 10%;
+}
+
+.icon{
+    padding: 0 0 25px;
+    color: rgb(253, 107, 107);
+}
+.icon:hover{
+  color:rgba(247, 15, 73, 0.884);
+  cursor: pointer;
+}
+
+
+.test-img{
+    border-radius: 100%;
+    padding: 15px;
+    width: 15%;
+}
+#press{
+    background-color:  rgb(253, 107, 107); 
+   
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 15px 15px 50px;;
+} 
+.carousel-item{
+    padding: 7% 15%; 
+}
+#pricing{
+    margin:100px;
+}
+
+.card-pricing{
+    padding: 3% 3%;
+}
+
+
+
+#cta{
+    background-color: rgba(247, 15, 73, 0.884);
+    
+    padding: 5% 15%;
+    color: aliceblue;
+}
+
+#footer{
+   
+    margin: 30px 0px 20px;
+}
+.footers{
+    padding: 15px;
+}
+.links{
+    padding: 20px 20px 20px;
+}
+.links:hover{
+    cursor: pointer;
+    
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
